@@ -1,7 +1,7 @@
-*{
+* {
   margin: 0;
 }
-nav{
+nav {
   display: flex;
   align-items: center;
   background-color: #fff;
@@ -9,141 +9,163 @@ nav{
   width: 100%;
   margin: 0;
 }
-.gradient-text{
+.gradient-text {
   float: left;
-  background-color: red;
-  background-image: linear-gradient(30deg,#5479f2, #6116a7);
+  background-color: rgb(83, 10, 112);
+  background-image: linear-gradient(30deg, #5479f2, #6116a7);
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-  flex-flow: row wrap:
 }
 
-a.gradient-text{
+.gradient-title {
+  background-color: rgb(66, 10, 104);
+  background-image: linear-gradient(
+    310deg,
+    #5479f2,
+    rgb(8, 77, 141),
+    rgb(15, 99, 209),
+    #6116a7
+  );
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+a.gradient-text {
   font-family: "Pangolin", sans-serif;
   font-weight: 600;
   font-size: 1.5rem;
   padding: 7px;
-  margin-left: 15%;
+  margin-left: 20%;
   text-shadow: 1px 1px 3px rgba(2, 2, 2, 0.144);
   letter-spacing: 5px;
 }
 
-ul.nav-list{
+ul.nav-list {
   list-style: none;
   width: 100%;
-  margin: 0 0 0 20%;
-
+  margin: 0 0 0 13%;
 }
 
-ul.nav-list li{
+ul.nav-list li {
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: 600;
+  letter-spacing: 4px;
   float: left;
-  margin: 0 15px;
+  margin: 0 5px;
+  font-size: 0.9em;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: #333;
   padding: 10px;
   border-radius: 10px;
 }
 
-nav a:hover{
-  background-color: #f0eeee;
+nav a:hover {
   color: black;
 }
 
-nav a:active{
-  background-color: #e0dfdf;
-  
+nav a:active {
+  background-color: #f0eeeea1;
+  color: black;
 }
 
-.main-text{
+.main-text {
   text-shadow: 0px 0px 7px rgba(51, 51, 51, 0.301);
 }
-.title{
-  font-family: "Roboto", sans-serif;
-  font-size: 4em;
-  letter-spacing: 5px;
-  position: relative;
-  top: 200px;
-  left: 200px;
-  color: rgb(37, 37, 37);
-  margin-top: 10px;
-}
 
-.text-title{
-  font-family: "Roboto", sans-serif;
+.text-title {
+  font-family: "Ubuntu", sans-serif;
   font-size: 2em;
   font-weight: 600;
   position: relative;
   top: 200px;
-  left: 200px;
-  margin-top: 10px;
+  left: 300px;
+  margin-top: 5px;
   color: rgb(37, 37, 37);
+  letter-spacing: 2px;
 }
 
-.pos-text{
-  font-family: "Roboto", sans-serif;
+.title {
+  font-family: "Pangolin", sans-serif;
+  font-size: 5em;
+  letter-spacing: 5px;
+  position: relative;
+  top: 200px;
+  left: 300px;
+  color: rgb(37, 37, 37);
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+.pos-text {
+  font-family: "Ubuntu", sans-serif;
   font-size: 1.3em;
   font-weight: 600;
   position: relative;
   top: 200px;
-  left: 200px;
-  margin-top: 15px;
+  left: 300px;
+  margin-top: 5px;
+  letter-spacing: 3px;
   color: rgb(37, 37, 37);
 }
 
-.hire, .get-cv{
+.hire,
+.get-cv {
   position: relative;
   top: 200px;
-  left: 200px;
+  left: 300px;
   border: none;
   width: 150px;
-  margin-top: 15px;
+  margin-top: 25px;
   padding: 13px;
   border-radius: 7px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
   text-shadow: 2px 2px 7px rgba(22, 22, 22, 0.52);
-  box-shadow: 0.5px 0.5px 3px rgb(0, 0, 0);
-  letter-spacing: 3px;
+  box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.404);
+  letter-spacing: 5px;
   float: left;
 }
 
 .hire{
-  background-color: #fff;
   color: #6116a7;
-  border: 1px solid #571e8d63;
+  border: 1px solid #571e8d3b;
 }
 
-.get-cv{
+.get-cv {
   margin-left: 15px;
-  border: 1px solid #571e8d63;
   color: #6116a7;
+  border: 1px solid #571e8d3b;
 }
 
-.hire:hover, .get-cv:hover{
-  background: linear-gradient(90deg,#5479f2, #6116a7);
+.hire:hover,
+.get-cv:hover {
+  background: linear-gradient(90deg, #5479f2, #6116a7);
   color: #fff;
 }
 
-.hire:active, .get-cv:active{
-  background: linear-gradient(45deg,#1e48d1, #480686);
+.hire:active,
+.get-cv:active {
+  background: linear-gradient(45deg, #1e48d1, #480686);
   color: #fff;
 }
 
-img{
+img {
   width: 700px;
   float: left;
   position: relative;
-  top: -100px;
-  left: 250px;
+  top: -90px;
+  left: 280px;
   z-index: -1;
 }
