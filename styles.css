@@ -1,15 +1,149 @@
-* {
+*{
   margin: 0;
-  padding: 0;
-  border: 0;
 }
-
 nav{
-    background-color: #fff;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px rgba(51, 51, 51, 0.266);
+  width: 100%;
+  margin: 0;
 }
-.nav-logoicon {
-  font-family: "Walter Turncoat", cursive;
-  font-size: 18rem;
-  font-weight: 800;
+.gradient-text{
+  float: left;
+  background-color: red;
+  background-image: linear-gradient(30deg,#5479f2, #6116a7);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  flex-flow: row wrap:
+}
 
+a.gradient-text{
+  font-family: "Pangolin", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 7px;
+  margin-left: 15%;
+  text-shadow: 1px 1px 3px rgba(2, 2, 2, 0.144);
+  letter-spacing: 5px;
+}
+
+ul.nav-list{
+  list-style: none;
+  width: 100%;
+  margin: 0 0 0 20%;
+
+}
+
+ul.nav-list li{
+  display: block;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  float: left;
+  margin: 0 15px;
+}
+
+nav a{
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+nav a:hover{
+  background-color: #f0eeee;
+  color: black;
+}
+
+nav a:active{
+  background-color: #e0dfdf;
+  
+}
+
+.main-text{
+  text-shadow: 0px 0px 7px rgba(51, 51, 51, 0.301);
+}
+.title{
+  font-family: "Roboto", sans-serif;
+  font-size: 4em;
+  letter-spacing: 5px;
+  position: relative;
+  top: 200px;
+  left: 200px;
+  color: rgb(37, 37, 37);
+  margin-top: 10px;
+}
+
+.text-title{
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  font-weight: 600;
+  position: relative;
+  top: 200px;
+  left: 200px;
+  margin-top: 10px;
+  color: rgb(37, 37, 37);
+}
+
+.pos-text{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.3em;
+  font-weight: 600;
+  position: relative;
+  top: 200px;
+  left: 200px;
+  margin-top: 15px;
+  color: rgb(37, 37, 37);
+}
+
+.hire, .get-cv{
+  position: relative;
+  top: 200px;
+  left: 200px;
+  border: none;
+  width: 150px;
+  margin-top: 15px;
+  padding: 13px;
+  border-radius: 7px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  text-shadow: 2px 2px 7px rgba(22, 22, 22, 0.52);
+  box-shadow: 0.5px 0.5px 3px rgb(0, 0, 0);
+  letter-spacing: 3px;
+  float: left;
+}
+
+.hire{
+  background-color: #fff;
+  color: #6116a7;
+  border: 1px solid #571e8d63;
+}
+
+.get-cv{
+  margin-left: 15px;
+  border: 1px solid #571e8d63;
+  color: #6116a7;
+}
+
+.hire:hover, .get-cv:hover{
+  background: linear-gradient(90deg,#5479f2, #6116a7);
+  color: #fff;
+}
+
+.hire:active, .get-cv:active{
+  background: linear-gradient(45deg,#1e48d1, #480686);
+  color: #fff;
+}
+
+img{
+  width: 700px;
+  float: left;
+  position: relative;
+  top: -100px;
+  left: 250px;
+  z-index: -1;
 }
