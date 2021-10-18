@@ -100,7 +100,7 @@ nav a:active {
   font-weight: 600;
   position: relative;
   top: 200px;
-  left: 300px;
+  left: 250px;
   margin-top: 5px;
   color: rgb(37, 37, 37);
   letter-spacing: 2px;
@@ -112,7 +112,7 @@ nav a:active {
   letter-spacing: 5px;
   position: relative;
   top: 200px;
-  left: 300px;
+  left: 250px;
   color: rgb(37, 37, 37);
   margin-top: 10px;
   font-weight: 700;
@@ -124,7 +124,7 @@ nav a:active {
   font-weight: 600;
   position: relative;
   top: 200px;
-  left: 300px;
+  left: 250px;
   margin-top: 5px;
   letter-spacing: 3px;
   color: rgb(37, 37, 37);
@@ -134,7 +134,7 @@ nav a:active {
 .get-cv {
   position: relative;
   top: 200px;
-  left: 300px;
+  left: 250px;
   border: none;
   width: 150px;
   margin-top: 25px;
@@ -176,7 +176,7 @@ img.main-img{
   float: left;
   position: relative;
   top: -90px;
-  left: 280px;
+  left: 220px;
   z-index: -1;
 }
 /* 
