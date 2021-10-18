@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+nav{
+    background-color: #fff;
+}
+.nav-logoicon {
+  font-family: "Walter Turncoat", cursive;
+  font-size: 18rem;
+  font-weight: 800;
+
+}
