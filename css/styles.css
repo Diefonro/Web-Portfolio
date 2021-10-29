@@ -3,7 +3,7 @@
   font-family: "Ubuntu", sans-serif;
 }
 
-html{
+html {
   margin: 0;
   padding: 0;
   border: 0;
@@ -19,7 +19,6 @@ nav {
   width: 100%;
   margin: 0;
 }
-
 
 .gradient-title {
   background-color: rgb(66, 10, 104);
@@ -39,12 +38,10 @@ nav {
 }
 
 a.logo {
- 
   margin-left: 20%;
-  
 }
 
-a.logo img{
+a.logo img {
   width: 70px;
   position: relative;
   top: 3px;
@@ -143,7 +140,7 @@ nav a:active {
   float: left;
 }
 
-.get-cv2{
+.get-cv2 {
   position: relative;
   top: 200px;
   left: 400px;
@@ -163,7 +160,7 @@ nav a:active {
   border: 1px solid #571e8d3b;
 }
 
-.hire{
+.hire {
   color: #065c2a;
   border: 1px solid #571e8d3b;
 }
@@ -175,7 +172,8 @@ nav a:active {
 }
 
 .hire:hover,
-.get-cv:hover, .get-cv2:hover {
+.get-cv:hover,
+.get-cv2:hover {
   background: linear-gradient(90deg, #5479f2, #065c2a);
   color: #fff;
 }
@@ -187,7 +185,7 @@ nav a:active {
   color: #fff;
 }
 
-img.main-img{
+img.main-img {
   width: 600px;
   float: left;
   position: relative;
@@ -196,7 +194,7 @@ img.main-img{
   z-index: -1;
 }
 
-.about img{
+.about img {
   width: 400px;
   opacity: 80%;
   position: relative;
@@ -204,13 +202,13 @@ img.main-img{
   top: 130px;
 }
 
-.about{
+.about {
   display: flex;
   height: 100vh;
 }
 
-.about-text h2{
-  font-size: 40px;
+.about-text h2 {
+  font-size: 35px;
   position: relative;
   left: 200px;
   top: 150px;
@@ -221,13 +219,58 @@ img.main-img{
   text-align: center;
 }
 
-.about-text p{
+.about-text p {
   width: 600px;
-  font-size: 22px;
+  font-size: 18px;
   min-width: 300px;
   position: relative;
   left: 200px;
   top: 200px;
   text-align: justify;
   color: rgb(75, 74, 74);
+}
+
+.services-cards{
+  height: 100vh;
+  display: flex;
+}
+
+.services-text {
+  text-align: center;
+}
+
+.services-text h2 {
+  font-size: 30px;
+}
+
+.services-text p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.services-cont{
+  width: 200px;
+  text-align: center;
+  padding: 40px 15px;
+  background-color: rgb(242, 253, 245);
+  border-radius: 7px;
+  color: #333;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.services-cont h2{
+  font-size: 16px;
+  margin: 20px 0px;
+  text-shadow: 0px 0px 1px #065c2a;
+  color: #065c2a;
+}
+
+.services-cont p{
+  font-size: 13px;
+  text-shadow: 0px 0px 1px #333;
+}
+
+.services-cont img{
+  width: 50%;
 }
