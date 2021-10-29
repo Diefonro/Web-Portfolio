@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Diefonro's Portfolio</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,14 +16,16 @@
   <body>
     <header>
       <nav>
-        <a class="gradient-text" href="#home">dfnr</a>
+        <a class="logo" href="#home">
+          <img src="assets/logo/dfnr.png" alt="Diefonro logo" />
+        </a>
 
         <ul class="nav-list">
           <li>
             <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
             <a href="#">Services</a>
@@ -44,13 +46,26 @@
         <p class="pos-text">Junior Front-End Developer</p>
         <button class="hire">HIRE ME</button>
         <button class="get-cv">GET CV</button>
-        <img src="gif.gif" alt="diefonro's ilustration" class="main-img">
+        <img
+          src="assets/img/Diefonro.png"
+          alt="diefonro's ilustration"
+          class="main-img"
+        />
       </div>
 
       <div class="about">
-          <img src="img1.png" alt="dev" class="dev-about">
-          <!-- <h2>LET ME INTRODUCE MYSELF</h2> -->
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi molestias cumque eos inventore nemo ducimus, dolorum, quos dignissimos cum error molestiae impedit. Deleniti consectetur eum eligendi aspernatur dolor beatae quasi?</p>
+        <div class="about-img">
+          <img src="assets/img/dev1.png" alt="dev" class="dev-about" />
+        </div>
+        <div class="about-text">
+          <h2 id="about">LET ME INTRODUCE <br> MYSELF</h2>
+          <p>
+            I am a passionate Front-End Junior Developer, currently located in Bogotá, Colombia, but willing to work for anyone in the world. <br> <br>
+
+            I like music, I can play several instruments, I study medicine, I like art in every shape. And at least for me, the human body and developing are some of them.
+          </p>
+          <button class="get-cv2">GET CV</button>
+        </div>
       </div>
     </main>
   </body>

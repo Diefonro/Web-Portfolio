@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: "Ubuntu", sans-serif;
 }
 
 html{
@@ -18,26 +19,16 @@ nav {
   width: 100%;
   margin: 0;
 }
-.gradient-text {
-  float: left;
-  background-color: rgb(83, 10, 112);
-  background-image: linear-gradient(30deg, #5479f2, #6116a7);
-  background-size: 100%;
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-}
+
 
 .gradient-title {
   background-color: rgb(66, 10, 104);
   background-image: linear-gradient(
     310deg,
-    #5479f2,
+    #28852d,
     rgb(8, 77, 141),
-    rgb(15, 99, 209),
-    #6116a7
+    rgb(14, 150, 127),
+    #147521
   );
   background-size: 100%;
   background-repeat: repeat;
@@ -47,14 +38,16 @@ nav {
   -moz-text-fill-color: transparent;
 }
 
-a.gradient-text {
-  font-family: "Pangolin", sans-serif;
-  font-weight: 600;
-  font-size: 1.5rem;
-  padding: 7px;
+a.logo {
+ 
   margin-left: 20%;
-  text-shadow: 1px 1px 3px rgba(2, 2, 2, 0.144);
-  letter-spacing: 5px;
+  
+}
+
+a.logo img{
+  width: 70px;
+  position: relative;
+  top: 3px;
 }
 
 ul.nav-list {
@@ -92,6 +85,8 @@ nav a:active {
 .main-text {
   text-shadow: 0px 0px 7px rgba(51, 51, 51, 0.301);
   display: inline-block;
+  position: relative;
+  right: 40px;
 }
 
 .text-title {
@@ -148,42 +143,91 @@ nav a:active {
   float: left;
 }
 
+.get-cv2{
+  position: relative;
+  top: 200px;
+  left: 400px;
+  border: none;
+  width: 150px;
+  margin-top: 25px;
+  padding: 13px;
+  border-radius: 7px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+  text-shadow: 2px 2px 7px rgba(22, 22, 22, 0.52);
+  box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.404);
+  letter-spacing: 5px;
+  float: left;
+  margin-left: 15px;
+  color: #065c2a;
+  border: 1px solid #571e8d3b;
+}
+
 .hire{
-  color: #6116a7;
+  color: #065c2a;
   border: 1px solid #571e8d3b;
 }
 
 .get-cv {
   margin-left: 15px;
-  color: #6116a7;
+  color: #065c2a;
   border: 1px solid #571e8d3b;
 }
 
 .hire:hover,
-.get-cv:hover {
-  background: linear-gradient(90deg, #5479f2, #6116a7);
+.get-cv:hover, .get-cv2:hover {
+  background: linear-gradient(90deg, #5479f2, #065c2a);
   color: #fff;
 }
 
 .hire:active,
-.get-cv:active {
-  background: linear-gradient(45deg, #1e48d1, #480686);
+.get-cv:active,
+.get-cv2:active {
+  background: linear-gradient(45deg, #1e48d1, #065c2a);
   color: #fff;
 }
 
 img.main-img{
-  width: 700px;
+  width: 600px;
   float: left;
   position: relative;
   top: -90px;
-  left: 220px;
+  left: 300px;
   z-index: -1;
 }
-/* 
-.about{
-clear: both;
+
+.about img{
+  width: 400px;
+  opacity: 80%;
+  position: relative;
+  left: 130px;
+  top: 130px;
 }
 
-img.dev-about{
-  width: 40px;
-} */
+.about{
+  display: flex;
+  height: 100vh;
+}
+
+.about-text h2{
+  font-size: 40px;
+  position: relative;
+  left: 200px;
+  top: 150px;
+  color: #065c2a;
+  word-wrap: break-word;
+  text-shadow: 0px 0px 3px rgb(4, 82, 15);
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.about-text p{
+  width: 600px;
+  font-size: 22px;
+  min-width: 300px;
+  position: relative;
+  left: 200px;
+  top: 200px;
+  text-align: justify;
+  color: rgb(75, 74, 74);
+}
