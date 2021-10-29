@@ -220,6 +220,7 @@ img.main-img {
 }
 
 .about-text p {
+  font-weight: 600;
   width: 600px;
   font-size: 18px;
   min-width: 300px;
@@ -230,8 +231,14 @@ img.main-img {
   color: rgb(75, 74, 74);
 }
 
-.services-cards{
+.services{
   height: 100vh;
+  position: relative;
+  top: 100px;
+}
+.services-cards{
+  margin-top: 80px;
+  margin-left: 120px;
   display: flex;
 }
 
@@ -241,22 +248,29 @@ img.main-img {
 
 .services-text h2 {
   font-size: 30px;
+  color: #065c2a;
+  text-shadow: 0px 0px 2px #065c2a;
 }
 
 .services-text p {
   font-size: 18px;
   margin-top: 20px;
+  color: #333;
+  font-weight: 600;
+  text-shadow: 0px 0px 0.5px #333;
+  font-weight: 600;
 }
 
 .services-cont{
-  width: 200px;
+  width: 190px;
+  height: 180px;
   text-align: center;
   padding: 40px 15px;
-  background-color: rgb(242, 253, 245);
+  background-color: rgba(242, 253, 245, 0.653);
   border-radius: 7px;
   color: #333;
   flex-direction: row;
-  justify-content: space-around;
+  margin: 0px 20px;
 }
 
 .services-cont h2{
