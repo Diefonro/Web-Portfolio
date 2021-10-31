@@ -367,6 +367,11 @@ p.dp2{
   position: relative;
   top: 750px;
 }
+
+#portfolio{
+  position: relative;
+  top: 650px;
+}
 .portfolio-text{
   text-align: center;
 }
@@ -408,6 +413,7 @@ body {
 .portfolio-cont{
   width: 80%;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .portfolio-card{
@@ -420,6 +426,7 @@ body {
   left: 150px;
   top: 70px;
   transition: all 0.4s;
+  margin-bottom: 40px;
 }
 
 .portfolio-card:hover{
