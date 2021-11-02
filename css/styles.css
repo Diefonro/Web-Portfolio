@@ -411,13 +411,14 @@ body {
 }
 
 .portfolio-cont{
-  width: 80%;
+  width: 85%;
   display: flex;
   flex-wrap: wrap;
 }
 
 .portfolio-card{
   width: 400px;
+  min-width: 200px;
   border-radius: 30px;
   box-shadow: 0px 0px 3px rgb(163, 163, 163);
   text-align: center;
@@ -460,6 +461,50 @@ body {
 
 .portfolio-card a{
   color: #065c2a;
-  text-decoration: none;
+   text-decoration: none;
 }
 
+.contact{
+  text-align: center;
+}
+
+.contact-cont{
+  position: relative;
+  top: 1800px;
+}
+
+.contact-cont form{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-cont h3{
+  color: #065c2a;
+  text-shadow: 0px 0px 1px #065c2a;
+  /* margin-top: -15px; */
+  font-size: 30px;
+
+  margin-bottom: 70px;
+}
+
+.contact-cont input{
+  margin: 20px 0px;
+  outline: none;
+  height: 15px;
+  border: none;
+  box-shadow: 0px 0.5px 1px rgb(207, 206, 206);
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+#message{
+  outline: none; 
+  border: none;
+  box-shadow: 0px 0px 1px #333;
+  border-radius: 30px;
+  padding: 20px;
+  resize: none;
+}
