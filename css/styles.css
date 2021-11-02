@@ -140,6 +140,7 @@ nav a:active {
   float: left;
 }
 
+
 .get-cv2 {
   position: relative;
   top: 200px;
@@ -173,14 +174,14 @@ nav a:active {
 
 .hire:hover,
 .get-cv:hover,
-.get-cv2:hover {
+.get-cv2:hover, .contact-btn:hover{
   background: linear-gradient(90deg, #5479f2, #065c2a);
   color: #fff;
 }
 
 .hire:active,
 .get-cv:active,
-.get-cv2:active {
+.get-cv2:active, .contact-btn:active{
   background: linear-gradient(45deg, #1e48d1, #065c2a);
   color: #fff;
 }
@@ -428,6 +429,7 @@ body {
   top: 70px;
   transition: all 0.4s;
   margin-bottom: 40px;
+  background-color: #fff;
 }
 
 .portfolio-card:hover{
@@ -483,7 +485,6 @@ body {
 .contact-cont h3{
   color: #065c2a;
   text-shadow: 0px 0px 1px #065c2a;
-  /* margin-top: -15px; */
   font-size: 30px;
 
   margin-bottom: 70px;
@@ -503,8 +504,66 @@ body {
 #message{
   outline: none; 
   border: none;
-  box-shadow: 0px 0px 1px #333;
+  box-shadow: 0px 1px 2px rgb(202, 201, 201);
   border-radius: 30px;
   padding: 20px;
   resize: none;
+}
+
+.contact-btn{
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: none;
+  width: 150px;
+  padding: 13px;
+  border-radius: 7px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bolder;
+  text-shadow: 2px 2px 7px rgba(22, 22, 22, 0.52);
+  box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.404);
+  letter-spacing: 5px;
+  color: #065c2a;
+}
+
+#contact{
+  position: relative;
+  top: 1700px;
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+  position: relative;
+  top: 1800px;
+  border-top: 1px solid #d4d4d4;
+}
+
+footer img{
+  width: 30px;
+  padding: 10px;
+  margin-top: 10px;
+  opacity: 50%;
+}
+
+footer img:hover{
+  opacity: 100%;
+}
+
+footer small{
+  display: block;
+  padding: 0px 0px 20px 0px;
+  color: #065c2a;
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+#footer-bcg{
+  position: relative;
+  top: 1340px;
+  width: 100%;
+  z-index: -3;
+  opacity: 0%;
 }

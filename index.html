@@ -149,12 +149,14 @@
             <img
               id="jq-logo"
               src="assets/logo/jQuery-logo.png"
-              alt="jQuery-logo" title="Deepening..."
+              alt="jQuery-logo"
+              title="Deepening..."
             />
             <img
               id="react-logo"
               src="assets/logo/1183672.png"
-              alt="react.js logo" title="Deepening..."
+              alt="react.js logo"
+              title="Deepening..."
             />
             <img src="assets/logo/688062.png" alt="photoshop logo" />
             <img src="assets/logo/688064.png" alt="illustrator logo" />
@@ -367,18 +369,53 @@
         </div>
       </div>
 
+      <div id="contact" class="et">‎‍‍‍‍‍‎ ‏‏‎‎ ‏‏‎‎ ‏‏‎‏‏‎‎ ‏‏‎‎</div>
       <div class="contact">
         <div class="contact-cont">
-        <h3>Contact me</h3>
-        <form>
-            <input type="text" placeholder="Name" />
-            <input type="text" placeholder="Email Address">
-            <input type="text" placeholder="Subject">
-            <textarea name="" id="message" cols="25" rows="10" placeholder="Message"></textarea>
+          <h3>Contact me</h3>
+          <form action="https://formsubmit.co/dafrprof@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Name" required />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://yourdomain.co/thanks.html"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="text" name="_subject" placeholder="Subject" required />
+            <input type="hidden" name="_captcha" value="false" />
+            <textarea
+              minlength="10"
+              name="textarea"
+              id="message"
+              cols="25"
+              rows="10"
+              placeholder="Message"
+            ></textarea>
 
-        </form>
+            <a href="thankyou.html">
+              <button class="contact-btn">SEND</button></a
+            >
+          </form>
+        </div>
       </div>
-    </div>
     </main>
+    <footer>
+      <a
+        href="https://www.linkedin.com/in/andrés-fonseca-619385225/"
+        target="_blank"
+      >
+        <img id="lil-footer" src="assets/logo/2111532.png" alt="linkedin logo"
+      /></a>
+      <a href="https://github.com/Diefonro" target="_blank">
+        <img id="ghl-footer" src="assets/logo/4926624.png" alt="github logo" />
+      </a>
+      <small>Diefonro's Portfolio - Made by Diefonro - 2021</small>
+    </footer>
+    <img id="footer-bcg" src="assets/img/bcg-portfolio.png" alt="" />
   </body>
 </html>
