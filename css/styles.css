@@ -392,7 +392,7 @@ p.dp2{
 }
 
 body::-webkit-scrollbar {
-  width: 7px;              
+  width: 6px;
 }
 
 body::-webkit-scrollbar-track {
@@ -401,11 +401,11 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: rgb(53, 53, 53);   
-  border-radius: 15px;       
+  border-radius:  15px;       
   border: 1px solid rgb(244, 252, 245);  
 }
 
-body {
+body {         
   scrollbar-width: thin;
   scrollbar-color: rgb(53, 53, 53);
 }
