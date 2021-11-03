@@ -83,7 +83,7 @@ nav a:active {
   text-shadow: 0px 0px 7px rgba(51, 51, 51, 0.301);
   display: inline-block;
   position: relative;
-  right: 20px;
+  left: 30px;
 }
 
 .text-title {
@@ -172,6 +172,11 @@ nav a:active {
   border: 1px solid #571e8d3b;
 }
 
+.get-cv2{
+  position: relative;
+  top: 255px;
+}
+
 .hire:hover,
 .get-cv:hover,
 .get-cv2:hover, .contact-btn:hover{
@@ -187,20 +192,20 @@ nav a:active {
 }
 
 img.main-img {
-  width: 600px;
+  width: 530px;
   float: left;
   position: relative;
-  top: -90px;
+  top: -80px;
   left: 300px;
   z-index: -1;
 }
 
 .about img {
-  width: 400px;
+  width: 350px;
   opacity: 80%;
   position: relative;
   left: 130px;
-  top: 130px;
+  top: 150px;
 }
 
 .about {
@@ -209,10 +214,10 @@ img.main-img {
 }
 
 .about-text h2 {
-  font-size: 35px;
+  font-size: 30px;
   position: relative;
   left: 200px;
-  top: 150px;
+  top: 200px;
   color: #065c2a;
   word-wrap: break-word;
   text-shadow: 0px 0px 3px rgb(4, 82, 15);
@@ -223,11 +228,11 @@ img.main-img {
 .about-text p {
   font-weight: 600;
   width: 600px;
-  font-size: 18px;
+  font-size: 16px;
   min-width: 300px;
   position: relative;
   left: 200px;
-  top: 200px;
+  top: 250px;
   text-align: justify;
   color: rgb(75, 74, 74);
 }
@@ -495,7 +500,7 @@ body {
   outline: none;
   height: 15px;
   border: none;
-  box-shadow: 0px 0.5px 1px rgb(207, 206, 206);
+  box-shadow: 0px 1px 1px rgb(219, 219, 219);
   padding: 10px;
   border-radius: 10px;
   margin-left: 10px;
@@ -565,5 +570,5 @@ footer small{
   top: 1340px;
   width: 100%;
   z-index: -3;
-  opacity: 0%;
+  opacity: 70%;
 }

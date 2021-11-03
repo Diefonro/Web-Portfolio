@@ -105,6 +105,11 @@ p.a{
     font-size: 30px;
 }
 
+span a{
+  color: #065c2a;
+  text-decoration: none;
+  font-weight: 600;
+}
 footer {
   width: 100%;
   text-align: center;
@@ -139,5 +144,5 @@ footer small {
   top: 1340px;
   width: 100%;
   z-index: -3;
-  opacity: 0%;
+  opacity: 60%;
 }
