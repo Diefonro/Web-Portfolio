@@ -144,7 +144,7 @@ nav a:active {
 .get-cv2 {
   position: relative;
   top: 200px;
-  left: 400px;
+  left: 220px;
   border: none;
   width: 150px;
   margin-top: 25px;
@@ -205,11 +205,16 @@ img.main-img {
   width: 850px;
 }
 
+.about-sect-cont{
+  margin: auto;
+  width: 850px;
+}
+
 .about img {
   width: 350px;
   opacity: 80%;
   position: relative;
-  left: 130px;
+  /* left: 130px; */
   top: 150px;
 }
 
@@ -218,10 +223,11 @@ img.main-img {
   height: 100vh;
 }
 
+
 .about-text h2 {
   font-size: 30px;
   position: relative;
-  left: 200px;
+  /* left: 200px; */
   top: 200px;
   color: #065c2a;
   word-wrap: break-word;
@@ -232,14 +238,16 @@ img.main-img {
 
 .about-text p {
   font-weight: 600;
-  width: 600px;
+  width: 100%;
   font-size: 16px;
   min-width: 300px;
   position: relative;
-  left: 200px;
+  /* left: 200px; */
   top: 250px;
   text-align: justify;
   color: rgb(75, 74, 74);
+  margin-left: 30px;
+  word-wrap: break-word;
 }
 
 .services{
@@ -276,6 +284,10 @@ img.main-img {
   font-weight: 600;
 }
 
+.services-sect-cont{
+  margin: auto;
+}
+
 .services-cont{
   width: 190px;
   height: 190px;
@@ -285,7 +297,8 @@ img.main-img {
   border-radius: 10px;
   color: #333;
   flex-direction: row;
-  margin: 0px 20px;
+  margin: 80px 0px 0px 20px;
+  margin: auto;
   transition: all 0.4s;
 }
 
