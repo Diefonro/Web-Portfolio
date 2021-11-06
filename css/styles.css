@@ -597,4 +597,6 @@ footer small{
   opacity: 70%;
 }
 
-
+@media screen (min-width: 992px){
+  
+}
