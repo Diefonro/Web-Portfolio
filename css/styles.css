@@ -722,6 +722,9 @@ footer small{
     /* background-color: #28852d; */
   }
 
+  .portfolio{
+    margin-left: 50px;
+  }
   .portfolio, .contact, footer{
     min-width: 1000px;
   }
