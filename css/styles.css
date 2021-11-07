@@ -35,7 +35,7 @@ nav {
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
-}
+} 
 
 a.logo {
   margin-left: 20%;
@@ -553,7 +553,7 @@ body {
   text-shadow: 2px 2px 7px rgba(22, 22, 22, 0.52);
   box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.404);
   letter-spacing: 5px;
-  color: #065c2a;
+  color: #065c2a; 
 }
 
 #contact{
@@ -600,7 +600,135 @@ footer small{
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  /* Styles */
+  .text-title {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    position: relative;
+    top: 200px;
+    /* left: 250px; */
+    margin-top: 5px;
+    color: rgb(37, 37, 37);
+    letter-spacing: 2px;
+  }
+
+  .pos-text {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    position: relative;
+    top: 200px;
+    /* left: 250px; */
+    margin-top: 5px;
+    letter-spacing: 3px;
+    color: rgb(37, 37, 37);
+  }
+
+  .title {
+    font-family: "Pangolin", sans-serif;
+    font-size: 4em;
+    letter-spacing: 5px;
+    position: relative;
+    top: 200px;
+    /* left: 250px; */
+    color: rgb(37, 37, 37);
+    margin-top: 10px;
+    font-weight: 700;
+  }
+
+  img.main-img {
+    width: 430px;
+    float: left;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    z-index: -1;
+  }
+
+  .home-cont{
+    margin-left: 40%;
+  }
+
+
+  .about{
+    margin-left: 15%;
+  }
+  .about img {
+    width: 280px;
+    opacity: 80%;
+    position: relative;
+    /* left: 130px; */
+    top: 170px;
+  }
+
+  .about-text{
+    margin-left: 50px;
+  }
+
+  .about-text h2 {
+    font-size: 20px;
+    position: relative;
+    left: 20px;
+    top: 200px;
+    color: #065c2a;
+    word-wrap: break-word;
+    text-shadow: 0px 0px 3px rgb(4, 82, 15);
+    letter-spacing: 10px;
+    text-align: center;
+  }
+
+  .about-text p {
+    font-weight: 600;
+    width: 90%;
+    font-size: 14px;
+    min-width: 300px;
+    position: relative;
+    /* left: 200px; */
+    top: 250px;
+    text-align: justify;
+    color: rgb(75, 74, 74);
+    margin-left: 30px;
+    word-wrap: break-word;
+  }
+
+  .get-cv2 {
+    position: relative;
+    top: 250px;
+    left: 120px;
+    border: none;
+    width: 150px;
+    margin-top: 25px;
+    padding: 13px;
+    border-radius: 7px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bolder;
+    text-shadow: 2px 2px 7px rgba(22, 22, 22, 0.52);
+    box-shadow: 0.5px 0.5px 3px rgba(0, 0, 0, 0.404);
+    letter-spacing: 5px;
+    float: left;
+    
+    color: #065c2a;
+    border: 1px solid #571e8d3b;
+  }
+
+  .services{
+    margin: auto;
+    min-width: 1000px;
+    margin-left: 40px;
+    /* background-color: #28852d; */
+  }
+
+  .portfolio, .contact, footer{
+    min-width: 1000px;
+  }
+
+  #footer-bcg{
+    position: relative;
+    top: 740px;
+    width: 1100px;
+    z-index: -3;
+    opacity: 70%;
+  }
   }
   
   /* Smartphones (landscape) ----------- */
