@@ -600,6 +600,9 @@ footer small{
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  body{
+    min-width: 320px;
+  };
   .text-title {
     font-family: "Ubuntu", sans-serif;
     font-size: 1.5em;
