@@ -600,7 +600,7 @@ footer small{
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 320px) and (max-device-width : 480px) {
-  body{
+  html{
     min-width: 320px;
   };
   .text-title {
