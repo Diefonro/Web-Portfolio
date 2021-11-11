@@ -638,10 +638,10 @@ footer small{
   }
 
   img.main-img {
-    width: 430px;
+    width: 50%;
     float: left;
     position: relative;
-    top: -20px;
+    top: -5px;
     left: 20px;
     z-index: -1;
   }
