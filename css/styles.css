@@ -610,25 +610,26 @@ footer small {
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-device-width: 480px) {
   nav {
-    min-width: 320px;
-    max-width: 480px;
+    max-width: 100%;
   }
 
   a.logo {
-    margin-left: 5%;
+    margin-left: 15%;
   }
 
   a.logo img {
-    width: 50px;
+    width: 90px;
     position: relative;
     top: 3px;
   }
 
   .dd-arrow{
-    display: initial;
-    position: relative;
-    left: 35%;
-    opacity: 70%;
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-right: 15%;
+    opacity: 60%;
+    width: 40px;
   }
 
   .dd{
