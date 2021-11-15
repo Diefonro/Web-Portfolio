@@ -857,7 +857,7 @@ footer small {
   
   .services-cards-cont {
     margin: auto;
-    margin-left: 20%;
+    margin-left: 25%;
     width: 80%;
   }
   
@@ -969,7 +969,7 @@ footer small {
   
   #adobe-xd {
     position: relative;
-    left: 0;
+    right: -5;
   }
 
   
@@ -977,6 +977,7 @@ footer small {
   /* height: 100vh; */
   position: relative;
   top: 550px;
+  margin-left: 5%;
 }
 
 #portfolio {
