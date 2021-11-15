@@ -47,9 +47,12 @@ a.logo img {
   top: 3px;
 }
 
-.dd-arrow,
-.dd, .dd-cont {
+.dd, .dd-arrow{
   display: none;
+}
+
+.dd-arrow:hover{
+  cursor: pointer;
 }
 
 ul.nav-list {
