@@ -622,7 +622,8 @@ footer small {
 
   .dd {
     font-size: 1em;
-    position: relative;
+    position: fixed;
+    z-index: 10;
     top: 80px;
     left: 60%;
     width: 100%;
@@ -1197,7 +1198,8 @@ body {
 
   .dd {
     font-size: 1em;
-    position: relative;
+    position: fixed;
+    z-index: 10;
     top: 80px;
     left: 70%;
     width: 100px;
