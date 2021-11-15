@@ -729,7 +729,7 @@ footer small {
   .get-cv2 {
     position: relative;
     top: 200px;
-    left: 15%;
+    left: 20%;
     border: none;
     width: 150px;
     margin-top: 25px;
@@ -802,7 +802,7 @@ footer small {
     width: 100%;
     opacity: 30%;
     position: absolute;
-    left: 80px;
+    left: 50px;
     top: 700px;
   }
 
@@ -833,6 +833,7 @@ footer small {
     position: relative;
     /* left: 200px; */
     top: 250px;
+    right: 10px;
     text-align: justify;
     color: rgb(46, 45, 45);
     text-shadow: 0px 0px 2px #fff;
