@@ -1199,7 +1199,7 @@ body {
   .dd {
     font-size: 1em;
     position: fixed;
-    z-index: 10;
+    z-index: 11;
     top: 80px;
     left: 70%;
     width: 100px;
