@@ -266,6 +266,7 @@ img.main-img {
 .services-cards {
   /* margin-top: 100px; */
   display: flex;
+  justify-content: center;
 }
 
 .services-cards-cont {
@@ -857,6 +858,7 @@ footer small {
     /* margin-top: 100px; */
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
   
   .services-cards-cont {
