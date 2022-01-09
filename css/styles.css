@@ -10,6 +10,7 @@ html {
   margin: 0;
   padding: 0;
   border: 0;
+  scroll-behavior: smooth;
 }
 
 nav {
@@ -569,7 +570,7 @@ body {
 
 #contact {
   position: relative;
-  top: 700px;
+  top: 650px;
 }
 
 footer {
@@ -807,7 +808,7 @@ footer small {
     float: left;
     position: relative;
     top: -90px;
-    left: -5px;
+    left: 15px;
     z-index: 1;
     opacity: 20%;
   }
@@ -825,8 +826,8 @@ footer small {
   .about-img {
     opacity: 10%;
     position: absolute;
-    left: 50px;
-    top: 700px;
+    left: 20px;
+    top: 250px;
   }
 
   
