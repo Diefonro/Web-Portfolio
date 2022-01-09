@@ -510,11 +510,13 @@ body {
 
 .contact {
   text-align: center;
+  margin-top: 600px;
 }
 
 .contact-cont {
   position: relative;
-  top: 800px;
+  top: 200px;
+  height: 100px;
 }
 
 .contact-cont form {
@@ -577,7 +579,7 @@ footer {
   width: 100%;
   text-align: center;
   position: relative;
-  top: 1100px;
+  top: 800px;
   border-top: 1px solid #d4d4d4;
 }
 
@@ -604,7 +606,7 @@ footer small {
 
 #footer-bcg {
   position: relative;
-  top: 650px;
+  top: 350px;
   /* bottom: 0; */
   width: 100%;
   z-index: -3;
