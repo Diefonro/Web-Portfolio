@@ -803,11 +803,11 @@ footer small {
   }
   
   img.main-img {
-    width: 80%;
+    width: 100%;
     float: left;
     position: relative;
-    top: -45px;
-    left: 40px;
+    top: -90px;
+    left: -5px;
     z-index: 1;
     opacity: 20%;
   }
